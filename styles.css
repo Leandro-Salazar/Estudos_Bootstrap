@@ -1,0 +1,40 @@
+:root  {
+    --my-color-black:#000000;
+    --my-color-gray:#cccccc;
+    --my-color-lemon-green:#DAFF01;
+    --my-color-purple:#9353FF;
+    
+    
+}
+
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.my-color-black {
+    background-color: var(--my-color-black);
+}
+
+.my-color-gray {
+    background-color: var(--my-color-gray);
+}
+
+.my-color-lemon-green{
+    color: var(--my-color-lemon-green);
+}
+
+.botao-lilas {
+    background-color: var(--my-color-purple) !important;
+    transition: all .3s !important;
+    
+}
+
+.botao-lilas:hover {
+    background-color: #6d24eb !important;
+}
+
